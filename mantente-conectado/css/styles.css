@@ -1,0 +1,58 @@
+/*MOBILE*/
+@media only screen and (max-width: 999px) {
+	
+
+	header {overflow: hidden; position: absolute; height: 100px; top:0; transition: all 800ms 0s ease; width: 100%; z-index: 3;}
+	header.opened {background: #666; bottom: 0; top: 0; left: 0; right: 0; height: 100%; overflow-y: auto; position: fixed;}
+	header figure {display: inline-block; margin-top: 50px; text-align: left; vertical-align: middle; width: 100%;}
+	header figure a {display: block; text-align: center;}
+	header figure a img {width: 60%;}
+	header nav {display: block;}
+	header nav ul {display: block; margin: 0; padding: 0; }
+	header nav ul li {border-bottom: 2px solid #FFF; font-weight: bolder; padding: 10px 0 10px 10px; text-align: left;}
+	header nav ul li a {display: block; text-align: left;}
+	header ol {position: absolute; right: 10px; top: 10px;}
+	header ol li {display: inline-block; margin-left: 5px;}
+	header ol li a {}
+	header ol li a img {width: 25px;}
+	header#light {background-color: #FFF; border-bottom: 2px solid #D3D4D5;}
+	header#light nav ul li {color: #000; font-weight: bolder;}
+	header#light nav ul li a {color: #000;}
+
+	/*Mobile menu*/
+	header nav > button, header nav > button:focus {background: no-repeat; border: 0; box-sizing: border-box; cursor: pointer; display: block; height: 30px; left: 20px; margin: 0 auto; outline: none; padding: 0; position: absolute; top: 10px; width: 28px; z-index: 1;}
+	header nav > button > span.line, header nav > button > span.line:after, header nav > button > span.line:before {background:#000; height: 2px; position: absolute; left: 0; margin-top: -1px; transition: background 300ms 0s ease, transform 300ms 0s ease, top 300ms 0.2s ease, bottom 300ms 0.2s ease; width: 100%;}
+	header nav > button > span.line.light, header nav > button > span.line.light:after, header nav > button > span.line.light:before {background: #000;}
+	header nav > button > span.line:before {top: -7px; content: "";}
+	header nav > button > span.line:after {bottom: -8px; content: "";}
+	header.opened .mobile span.line {background: transparent !important;}
+	header.opened .mobile span.line:before {top: 0; transform: rotate(45deg); transition: background 300ms 0s ease, transform 300ms 0.2s ease, top 300ms 0s ease, bottom 300ms 0s ease;}
+	header.opened .mobile span.line:after {bottom: 0; transform: rotate(-45deg); transition: background 300ms 0s ease, transform 300ms 0.2s ease, top 300ms 0s ease, bottom 300ms 0s ease;}
+
+	
+
+}
+
+/*DESKTOP*/
+@media only screen and (min-width: 1000px) {
+	
+
+	header {background-color: rgba(0, 0, 0, 0.25); padding: 20px; position: fixed; width: 100%; z-index: 3;}
+	header figure {display: inline-block; text-align: left; vertical-align: middle; width: 15%;}
+	header figure a {display: block;}
+	header figure a img {width: 100%;}
+	header nav {display: inline-block; vertical-align: middle; width: 60%;}
+	header nav ul {display: block;}
+	header nav ul li {display: inline-block; font-weight: bolder; width: 20%;}
+	header nav ul li a {color: white;}
+	header ol {display: inline-block; text-align: right; vertical-align: middle; width: 15%;}
+	header ol li {display: inline-block; margin-left: 10px;}
+	header ol li a {}
+	header ol li a img {width: 30px;}
+	header#light {background-color: #FFF; border-bottom: 2px solid #D3D4D5; margin-top: 0; padding: 40px 0 20px 0; position: static;}
+	header#light nav ul li {color: #000; font-weight: bolder;}
+	header#light nav ul li a {color: #000;}
+	
+	
+
+}

@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> .:Aviso de privacidad TLSAT:.</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,800,900&display=swap" rel="stylesheet">
+	<style type="text/css">
+		@font-face {
+		  	font-family: 'Pirulen';
+		  	src: url('css/pirulen.woff') format('woff'), 
+		  	/* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+		    url('css/pirulen.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3â€”5 */
+		}
+		.img-fluid{
+			width: 100%;
+		}
+		ul li{
+			list-style-type: none;
+		}
+		.footer{
+			background-image: url(img/background.jpg);
+			background-size: cover;
+			background-position: center bottom;
+		}
+		@media (max-width: 576px) {
+			.header__text h1, .header__text p{
+				text-align: center;
+				font-family: 'Pirulen';				
+			}
+			.header__text p{
+				margin-bottom: 80px;
+			}
+			.header__text .price{
+				font-size: 65px;
+			}
+			.cta{
+				font-family: 'Montserrat', sans-serif;
+				font-size: 16px;
+				background: #303880;
+				color: white;
+				padding: 10px 25px;
+				border-radius: 78px 78px 78px 78px;
+				-moz-border-radius: 78px 78px 78px 78px;
+				-webkit-border-radius: 78px 78px 78px 78px;
+				margin-bottom: 120px;
+			}
+			.footer ul{
+				text-align: center;
+				margin-top: 20px;
+				line-height: 2.2;
+			}
+			.footer p{
+				text-align: center;
+				margin-top: 20px;
+				margin-bottom: 20px;
+			}
+			.divisor{
+				width: 150px;
+				border: 2px solid #193067;
+			}
+			.fm-contacto{
+				-webkit-box-shadow: -2px 2px 14px 0px rgba(168,168,168,1);
+				-moz-box-shadow: -2px 2px 14px 0px rgba(168,168,168,1);
+				box-shadow: -2px 2px 14px 0px rgba(168,168,168,1);
+				width: 300px;
+				padding-left: 30px;
+				padding-right: 30px;
+				margin-left: auto;
+				margin-right: auto;
+				margin-top: 50px;
+				margin-bottom: 50px;
+				overflow: hidden;
+				padding-top: 50px;
+				padding-bottom: 100px;
+			}
+			.fm-contacto__titulo{
+				font-family: 'Pirulen';
+				font-size: 20px;
+			}
+			input[type="text"], textarea{
+				background: none !important;
+				border: none !important;
+				box-shadow: none !important;
+				border-radius: 0px 0px 0px 0px;
+				-moz-border-radius: 0px 0px 0px 0px;
+				-webkit-border-radius: 0px 0px 0px 0px;
+				border-bottom: 1px solid #ccc !important;
+			}
+			.footer p, .footer li, .footer a{
+				font-family: 'Montserrat', sans-serif;
+				color: #303880;
+				text-decoration: none;
+			}
+		}
+		/* Small devices (landscape phones, 576px and up)*/
+		@media (min-width: 576px) {
+			.header__text h1, .header__text p{
+				text-align: center;
+			}
+			.divisor{
+				width: 150px;
+				border: 2px solid #193067;
+			}
+			.fm-contacto{
+				-webkit-box-shadow: -2px 2px 14px 0px rgba(168,168,168,1);
+				-moz-box-shadow: -2px 2px 14px 0px rgba(168,168,168,1);
+				box-shadow: -2px 2px 14px 0px rgba(168,168,168,1);
+				width: 450px;
+				padding-left: 30px;
+				padding-right: 30px;
+				margin-left: auto;
+				margin-right: auto;
+				margin-top: 50px;
+				margin-bottom: 50px;
+				overflow: hidden;
+				padding-top: 50px;
+				padding-bottom: 100px;
+			}
+			input[type="text"], textarea{
+				background: none !important;
+				border: none !important;
+				box-shadow: none !important;
+				border-radius: 0px 0px 0px 0px;
+				-moz-border-radius: 0px 0px 0px 0px;
+				-webkit-border-radius: 0px 0px 0px 0px;
+				border-bottom: 1px solid #ccc !important;
+			}
+			.footer p, .footer li, .footer a{
+				font-family: 'Montserrat', sans-serif;
+				color: #303880;
+				text-decoration: none;
+				text-align: center;
+				line-height: 2;
+			}
+		}
+		/* Medium devices (tablets, 768px and up) */
+		@media (min-width: 768px) {
+			.header__text{
+				position: absolute;
+				top: 5%;
+				width: 100%;
+			}
+			.header__text h1, .header__text p{
+				text-align: center;
+				font-family: 'Pirulen';
+				color: #102c85;
+			}
+			.header__text .price{
+				font-size: 65px;
+			}
+			.cta{
+				font-family: 'Montserrat', sans-serif;
+				font-size: 16px;
+				background: #303880;
+				color: white;
+				padding: 10px 25px;
+				border-radius: 78px 78px 78px 78px;
+				-moz-border-radius: 78px 78px 78px 78px;
+				-webkit-border-radius: 78px 78px 78px 78px;
+			}
+			.divisor{
+				width: 150px;
+				border: 2px solid #193067;
+			}
+			.fm-contacto{
+				-webkit-box-shadow: -2px 2px 14px 0px rgba(168,168,168,1);
+				-moz-box-shadow: -2px 2px 14px 0px rgba(168,168,168,1);
+				box-shadow: -2px 2px 14px 0px rgba(168,168,168,1);
+				width: 450px;
+				padding-left: 30px;
+				padding-right: 30px;
+				margin-left: auto;
+				margin-right: auto;
+				margin-top: 50px;
+				margin-bottom: 50px;
+				overflow: hidden;
+				padding-top: 50px;
+				padding-bottom: 100px;
+			}
+			.fm-contacto__titulo{
+				font-family: 'Pirulen';
+				font-size: 25px;
+			}
+			input[type="text"], textarea{
+				background: none !important;
+				border: none !important;
+				box-shadow: none !important;
+				border-radius: 0px 0px 0px 0px;
+				-moz-border-radius: 0px 0px 0px 0px;
+				-webkit-border-radius: 0px 0px 0px 0px;
+				border-bottom: 1px solid #ccc !important;
+			}
+			.footer p, .footer li, .footer a{
+				font-family: 'Montserrat', sans-serif;
+				color: #303880;
+				text-decoration: none;
+			}
+		}
+		/* Large devices (desktops, 992px and up)*/
+		@media (min-width: 992px) {
+			.header__text{
+				position: absolute;
+				top: 10%;
+				width: 100%;
+			}
+			.header__text h1, .header__text p{
+				text-align: left;
+			}
+			.divisor{
+				width: 150px;
+				border: 2px solid #193067;
+			}
+			.fm-contacto{
+				-webkit-box-shadow: -2px 2px 14px 0px rgba(168,168,168,1);
+				-moz-box-shadow: -2px 2px 14px 0px rgba(168,168,168,1);
+				box-shadow: -2px 2px 14px 0px rgba(168,168,168,1);
+				width: 450px;
+				padding-left: 30px;
+				padding-right: 30px;
+				margin-left: auto;
+				margin-right: auto;
+				margin-top: 50px;
+				margin-bottom: 50px;
+				overflow: hidden;
+				padding-top: 50px;
+				padding-bottom: 100px;
+			}
+			.fm-contacto__titulo{
+				font-family: 'Pirulen';
+				font-size: 25px;
+			}
+			input[type="text"], textarea{
+				background: none !important;
+				border: none !important;
+				box-shadow: none !important;
+				border-radius: 0px 0px 0px 0px;
+				-moz-border-radius: 0px 0px 0px 0px;
+				-webkit-border-radius: 0px 0px 0px 0px;
+				border-bottom: 1px solid #ccc !important;
+			}
+			.border__left{
+				border-left: 1px solid #303880;
+			}
+			.line__foter{
+				border-bottom: 1px solid #303880;
+			}
+			.footer p, .footer li, .footer a{
+				font-family: 'Montserrat', sans-serif;
+				color: #303880;
+				text-decoration: none;
+			}
+		}
+
+		/* Extra large devices (large desktops, 1200px and up)*/
+		@media (min-width: 1200px) {
+			.header__text{
+				position: absolute;
+				top: 25%;
+				width: 100%;
+			}
+			.header__text h1, .header__text p{
+				text-align: center;
+				font-family: 'Pirulen';
+				color: #102c85;
+			}
+			.header__text .price{
+				font-size: 65px;
+			}
+			.cta{
+				font-family: 'Montserrat', sans-serif;
+				font-size: 16px;
+				background: #303880;
+				color: white;
+				padding: 10px 25px;
+				border-radius: 78px 78px 78px 78px;
+				-moz-border-radius: 78px 78px 78px 78px;
+				-webkit-border-radius: 78px 78px 78px 78px;
+			}
+			h2{
+				font-family: 'Montserrat', sans-serif;
+			}
+			.divisor{
+				width: 150px;
+				border: 2px solid #193067;
+			}
+			.fm-contacto{
+				-webkit-box-shadow: -2px 2px 14px 0px rgba(168,168,168,1);
+				-moz-box-shadow: -2px 2px 14px 0px rgba(168,168,168,1);
+				box-shadow: -2px 2px 14px 0px rgba(168,168,168,1);
+				width: 450px;
+				padding-left: 30px;
+				padding-right: 30px;
+				margin-left: auto;
+				margin-right: auto;
+				margin-top: 50px;
+				margin-bottom: 50px;
+				overflow: hidden;
+				padding-top: 50px;
+				padding-bottom: 100px;
+			}
+
+			.fm-contacto__titulo{
+				font-family: 'Pirulen';
+				font-size: 25px;
+			}
+
+			input[type="text"], textarea{
+				background: none !important;
+				border: none !important;
+				box-shadow: none !important;
+				border-radius: 0px 0px 0px 0px;
+				-moz-border-radius: 0px 0px 0px 0px;
+				-webkit-border-radius: 0px 0px 0px 0px;
+				border-bottom: 1px solid #ccc !important;
+				font-family: 'Montserrat', sans-serif;
+			}
+			.border__left{
+				border-left: 1px solid #303880;
+			}
+			.line__foter{
+				border-bottom: 1px solid #303880;
+			}
+			.footer p, .footer li, .footer a{
+				font-family: 'Montserrat', sans-serif;
+				color: #303880;
+				text-decoration: none;
+			}
+		}
+		.bold{
+			font-weight: 800;
+		}
+		.cta:hover{
+			background: white;
+			border:1px solid #303880;
+			text-decoration: none;
+			color: #303880;
+		}
+		.send{
+			background: #303880;
+			color: white;
+			font-family: 'Montserrat', sans-serif;
+			padding: 5px 20px;
+		}
+		
+	</style>
+</head>
+<body>
+	<div class="container" >
+	    <br/><br/><br/><br/>
+		<div class="row">
+			<div class="col-md-12 text-center">
+				<hr class="divisor" />
+				<h2 style="color:#193067">AVISO DE PRIVACIDAD</h2>
+				<hr class="divisor" />
+			</div>
+		</div><br/><br/>
+		<div>
+				<strong><FONT SIZE=5>Aviso dirigido a los titulares de datos personales que obran en posesión de TLSAT 18N 91W S. de R.L. de C.V.:</font></strong>
+				<br/><br/><FONT SIZE=5>
+				TLSAT 18N 91W S. de R.L. de C.V. (TLSAT), con domicilio en Calle 34 #164 Planta Baja Col. Centro, C.P.24100, Cd. del Carmen, Campeche, México, hace de su conocimiento que los datos personales de usted, incluyendo los sensibles, que actualmente o en el futuro obren en nuestras bases de datos, serán tratados y/o utilizados por: TLSAT y/o las empresas controladoras de ésta última y/o nuestras empresas filiales y/o subsidiarias y/o aquellos terceros que, por la naturaleza de sus trabajos o funciones tengan la necesidad de tratar y/o utilizar sus datos personales; con el propósito de cumplir aquellas obligaciones que se derivan de la relación jurídica existente entre usted como titular de los datos personales y las empresas antes señaladas. 
+				</font>	<br/><br/><FONT SIZE=5>
+				TLSAT podrá transferir los datos personales que obren en sus bases de datos a cualesquiera de las empresas controladoras de ésta última y/o a sus empresas filiales y/o subsidiarias e incluso a terceras personas, nacionales o extranjeras, salvo que los titulares respectivos manifiesten expresamente su oposición, en términos de lo dispuesto por la Ley Federal de Protección de Datos Personales en Posesión de los Particulares (la Ley).
+				</font>	<br/><br/><FONT SIZE=5>
+				Los titulares podrán ejercer los derechos que les confiere la Ley, a partir del 6 de enero de 2012, mediante una solicitud por escrito, que deberá ser presentada en el domicilio de TLSAT, que se indica en la página web: www.tlsatmex.com .Todas las solicitudes que sean presentadas a Telmex, independiente del medio utilizado por los titulares, deberán:
+				</font>	<br/><br/>
+				<ul>
+				    <li><FONT SIZE=5>
+				    •Incluir el nombre y firma autógrafa del titular, así como un domicilio u otro medio para comunicarle la respuesta a su solicitud.    
+				    </font>    
+				    </li>
+				    <li><FONT SIZE=5>
+				    •Acompañar los documentos oficiales que acrediten la identidad del titular.    
+				    </font>    
+				    </li>
+				    <li><FONT SIZE=5>
+				    •Incluir una descripción clara y precisa de los datos personales respecto de los cuales ejercitará los derechos que les confiere la Ley.    
+				    </font>    
+				    </li>
+				    <li><FONT SIZE=5>
+				    •Incluir cualquier elemento o documento que facilite la localización de los datos personales de que se traten.    
+				    </font>    
+				    </li>
+				</ul>
+				<br/><FONT SIZE=5>
+				TLSAT se reserva el derecho de cambiar, modificar, complementar y/o alterar el presente aviso, en cualquier momento, en cuyo caso se hará de su conocimiento a través de cualquiera de los medios que establece la legislación en la materia.
+				</font>	
+				<br/><br/>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<hr class="line__foter"/>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4 col-sm-6">
+					<ul class="menu">
+						<li><a href="../contacto/">VOLVER A CONTACTO</a></li>
+						<li><a href="../">INICIO</a></li>
+						<li><a href="../nosotros/">NOSOTROS</a></li>
+						<li><a href="../servicios/">SERVICIOS</a></li>
+					</ul>
+				</div>
+				<div class="col-md-4 col-sm-6 border__left">
+					<p>Calle 34 #165 Planta Baja Col. Centro Cd. del Carmen, Campeche.24100, México.</p>
+					<p><a href="mailto:u.vidal@tlsatmex.com">u.vidal@tlsatmex.com</a></p>
+				</div>
+				<div class="col-md-3 col-sm-6 border__left">
+					<p>							 
+						Teléfonos:<br/>
+						+52 1 (938) 286 12 36<br/>
+						+52 1 (938) 150 62 09
+					</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<hr class="line__foter"/>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-146427220-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'UA-146427220-1');
+	</script>
+</body>
+</html>

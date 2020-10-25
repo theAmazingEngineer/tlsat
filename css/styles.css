@@ -1,0 +1,476 @@
+/*MOBILE*/
+@media only screen and (max-width: 999px) {
+	* {border: none; box-sizing: border-box; color: #FFF;  font-family: 'Quattrocento Sans', sans-serif; font-size: 14px; font-style: none; font-weight: 400; list-style: none; margin: 0; -moz-box-sizing: border-box; padding: 0; text-align: center; text-decoration: none; vertical-align: top; -webkit-box-sizing: border-box;}
+	body {transition: hidden 800ms 0s ease;}
+	body.noscroll {overflow: hidden;}
+
+	footer {z-index: 0;}
+	footer section#clients {background-image: url(../img/bg-footer.png); background-position: bottom; background-repeat: no-repeat; background-size: 175%; padding: 50px 0 100px 0;}
+	footer section#clients div button#platica {background-color: #FFF; margin-top: 20px; width: 75%;}
+	footer section#clients div button#platica a {color: #000; display: block; padding: 10px 0;}
+	footer section#clients h2 {border-top: none; display: block; margin: 50px 0; text-shadow: 0 0 3px #999;}
+	footer section#clients img {display: block; margin: 0 auto; vertical-align: middle; width: 50%;}
+	footer section#copyright {}
+	footer section#copyright p {color: #000; display: block; vertical-align: baseline;}
+	footer section#copyright span {color: #000; display: block; font-weight: bolder; margin-top: 20px; vertical-align: baseline;}
+	footer section#insights {}
+	footer section#insights article {display: block;}
+	footer section#insights article#contact-information {}
+	footer section#insights article#contact-information div {border-bottom: 2px solid #D3D4D5; padding: 20px 0 10px 0;}
+	footer section#insights article#contact-information div h4 {color: #000; display: block; margin-bottom: 10px;}
+	footer section#insights article#contact-information div p {color: #000; margin-bottom: 1em;}
+	footer section#insights article#contact-information div span {color: #000; display: block; margin: 10px;}
+	footer section#insights article#contact-information div span img {width: 20px;}
+	footer section#insights article#contact-information div#phones-white {display: none;}
+	footer section#insights article#menu {border-bottom: 2px solid #D3D4D5; display: block; padding-top: 20px;}
+	footer section#insights article#menu ul {display: block;}
+	footer section#insights article#menu ul li {color: #000; display: inline-block; margin-bottom: 20px; width: 45%;}
+	footer section#insights article#menu ul li a {color: #000;}
+	footer section#insights article#social-media {background-color: #8B8E91; border-bottom: 2px solid #D3D4D5;  padding: 20px 0;}
+	footer section#insights article#social-media h4 {display: block; margin-bottom: 10px;}
+	footer section#insights article#social-media ol {}
+	footer section#insights article#social-media ol li {color: #000; display: inline-block; margin: 0 5px;}
+	footer section#insights article#social-media ol li a {color: #000;}
+	footer section#insights article#social-media ol li a img {}
+	footer section#insights article#tlsat-desktop {display: none;}
+	footer section#insights article#tlsat-mobile {border: none; padding: 20px 0;}
+	footer section#insights article#tlsat-mobile img {width: 100px;}
+
+	footer#black {}
+	footer#black section#copyright p {color: #000;}
+	footer#black section#copyright span {color: #000;}
+	footer#black section#insights {}
+	footer#black section#insights article {}
+	footer#black section#insights article#contact-information div h4 {color: #000;}
+	footer#black section#insights article#contact-information div p {color: #000;}
+	footer#black section#insights article#contact-information div span {color: #000;}
+	footer#black section#insights article#menu ul li {color: #000; font-weight: bolder;}
+	footer#black section#insights article#menu ul li a {color: #000;}
+	footer#black section#insights article#social-media {background-color: transparent;}
+	footer#black section#insights article#social-media h4 {color: #000;}
+	footer#black section#insights article#tlsat {border: none;}
+
+	h1, h2, h3, h4, h5, h6 {font-family: 'Raleway', sans-serif; font-weight: bolder;}
+	h1 {font-size: 25px;}
+	h2 {font-size: 22.5px;}
+	h3 {font-size: 20px;}
+	h4 {font-size: 17.5px;}
+	h5 {font-size: 15px;}
+	h6 {font-size: 12.5px;}
+
+	header {overflow: hidden; position: absolute; height: 115px; top:0; transition: all 800ms 0s ease; width: 100%; z-index: 3;}
+	header.opened {background: #666; bottom: 0; top: 0; left: 0; right: 0; height: 100%; overflow-y: auto; position: fixed;}
+	header figure {display: inline-block; margin-top: 50px; text-align: left; vertical-align: middle; width: 100%;}
+	header figure a {display: block;}
+	header figure a img {width: 60%;}
+	header nav {display: block;}
+	header nav ul {display: block;}
+	header nav ul li {border-bottom: 2px solid #FFF; font-weight: bolder; padding: 10px 0 10px 10px; text-align: left;}
+	header nav ul li a {display: block; text-align: left;}
+	header ol {position: absolute; right: 10px; top: 10px;}
+	header ol li {display: inline-block; margin-left: 5px;}
+	header ol li a {}
+	header ol li a img {width: 25px;}
+	header#light {background-color: #FFF; border-bottom: 2px solid #D3D4D5;}
+	header#light nav ul li {color: #000; font-weight: bolder;}
+	header#light nav ul li a {color: #000;}
+
+	/*Mobile menu*/
+	header nav > button, header nav > button:focus {background: no-repeat; border: 0; box-sizing: border-box; cursor: pointer; display: block; height: 30px; left: 20px; margin: 0 auto; outline: none; padding: 0; position: absolute; top: 10px; width: 28px; z-index: 1;}
+	header nav > button > span.line, header nav > button > span.line:after, header nav > button > span.line:before {background:#FFF; height: 2px; position: absolute; left: 0; margin-top: -1px; transition: background 300ms 0s ease, transform 300ms 0s ease, top 300ms 0.2s ease, bottom 300ms 0.2s ease; width: 100%;}
+	header nav > button > span.line.light, header nav > button > span.line.light:after, header nav > button > span.line.light:before {background: #000;}
+	header nav > button > span.line:before {top: -7px; content: "";}
+	header nav > button > span.line:after {bottom: -8px; content: "";}
+	header.opened .mobile span.line {background: transparent !important;}
+	header.opened .mobile span.line:before {top: 0; transform: rotate(45deg); transition: background 300ms 0s ease, transform 300ms 0.2s ease, top 300ms 0s ease, bottom 300ms 0s ease;}
+	header.opened .mobile span.line:after {bottom: 0; transform: rotate(-45deg); transition: background 300ms 0s ease, transform 300ms 0.2s ease, top 300ms 0s ease, bottom 300ms 0s ease;}
+
+	#about-us {margin-top: 115px;}
+	#about-us article#brochure {margin: 50px 0;}
+	#about-us article#brochure div {background-color: #8B8E90; margin-top: -50px; padding: 75px 0 25px 0; vertical-align: middle;}
+	#about-us article#brochure div button {background-color: transparent; border: 2px solid #001C9C; margin-top: 15px; padding: 10px; opacity: 0; width: 60%;}
+	#about-us article#brochure div button a {color: #001C9C;}
+	#about-us article#brochure div h2 {color: #FFF; margin-bottom: 5px; opacity: 0;}
+	#about-us article#brochure div p {color: #FFF; margin-bottom: 5px; opacity: 0;}
+	#about-us article#brochure figure {display: inline-block; margin: 0 5%; text-align: left; vertical-align: middle; width: 60%; opacity: 0;}
+	#about-us article#brochure figure img {box-shadow: 0 0 10px rgba(0, 0, 0, 0.25); width: 100%;}
+	#about-us article#information {}
+	#about-us article#information div {display: inline-block; margin: 0 5%; opacity: 0; width: 75%;}
+	#about-us article#information div p {color: #000; margin-bottom: 1em; text-align: left;}
+	#about-us article#information div p img {vertical-align: bottom; width: 50px;}
+	#about-us article#information div p strong {color: #000; font-weight: bolder; margin-right: 20px; vertical-align: bottom;}
+	#about-us article#information div ul {margin-bottom: 1em; padding-left: 25px;}
+	#about-us article#information div ul li {color: #000; list-style-type: square; text-align: left;}
+	#about-us article#main {background-image: url(../img/bg-contact-d.jpg); background-position: bottom left; background-repeat: no-repeat; background-size: 100%; border-bottom: 2px solid #D3D4D5; height: 250px; margin-bottom: 40px; position: relative; text-align: right;}
+	#about-us article#main div {padding-top: 25px; padding-right: 5%; text-align: right; width: 100%;}
+	#about-us article#main div button {background-color: #001C9C; margin-top: 25px; width: 50%; opacity: 0;}
+	#about-us article#main div button a {display: block; padding: 10px 0;}
+	#about-us article#main div h1 {color: #001CFF; text-align: right; vertical-align: baseline; opacity: 0;}
+	#about-us article#main div h3 {color: #001CFF; text-align: right; vertical-align: baseline; opacity: 0;}
+	#about-us article#main div h3 b {color: #001CFF; font-family: 'Orbitron', sans-serif; font-size: 25px; font-weight: bolder; vertical-align: baseline;}
+
+	#catalog {background-color: #D1D3D4; margin-bottom: 25px; padding: 20px 0;}
+	#catalog article {display: inline-block; width: 100%; opacity: 0;}
+	#catalog article div {display: inline-block; text-align: left; vertical-align: middle; width: 60%;}
+	#catalog article div button {background-color: #001C9C; margin-top: 10px; padding: 10px 0 5px 0; width: 75%;}
+	#catalog article div button a {font-size: 10px;}
+	#catalog article div h2 {color: #001C9C; font-size: 15px; text-align: left;}
+	#catalog article div h5 {color: #001C9C; font-size: 10px; text-align: left;}
+	#catalog article hr {display: none;}
+	#catalog article img {display: inline-block; margin-right: 2.5%; vertical-align: middle; width: 30%;}
+
+	#cobertura {display: inline-block; margin: 50px 0;}
+	#cobertura a {display: block; opacity: 0;}
+	#cobertura a img {width: 250px;}
+
+	#contact {max-width: 100%; overflow: hidden; width: 100%;}
+	#contact article {margin: 50px 0;}
+	#contact article div {display: inline-block; width: 90%;}
+	#contact article div h2 {color: #000; display: block; margin-bottom: 20px; text-align: left;}
+	#contact article div p {color: #000; display: block; margin-bottom: 1em; text-align: left;}
+	#contact article div p b {color: #000; font-weight: bolder;}
+	#contact article form {display: inline-block; margin-top: 20px; text-align: left; width: 90%;}
+	#contact article form button {background-color: #001C9C; cursor: pointer; padding: 10px 0; width: 30%;}
+	#contact article form button a {display: block; padding: 10px 0;}
+	#contact article form input {border: 1px solid #000; color: #000; display: block; margin-bottom: 20px; padding: 10px 25px; text-align: left; width: 100%;}
+	#contact article form label.error {color: red; display: block; font-size: 12px; text-align: left; margin-top: -15px; font-weight: bold;}
+	#contact article form textarea{border: 1px solid #000; color: #000; display: block; margin-bottom: 30px; height: 150px; padding: 10px 25px; resize: none; text-align: left; width: 100%;}
+	#contact iframe {border-bottom: 2px solid #D3D4D5 !important; height: 600px; width: 100%;}
+
+	#home {background-image: url(../img/bg-home-m.jpg); background-position: top; background-repeat: no-repeat; background-size: 125%; padding: 200px 0 225px 0; max-width: 100%; overflow: hidden;}
+	#home button {background-color: transparent; margin: 15px 12.5px 0 12.5px; padding: 10px; width: 75%;}
+	#home button a {}
+	#home button#button-contact {background-color: #FFF; border: 2px solid #FFF; opacity: 0;}
+	#home button#button-contact a {color: #000;}
+	#home button#button-services {border: 2px solid #FFF; opacity: 0;}
+	#home div {display: none;}
+	#home h1 {margin-bottom: 10px; opacity: 0;}
+	#home h3 {font-size: 12.5px; margin-bottom: 10px; opacity: 0;}
+	#home h4 {display: none;}
+	#home img {display: none;}
+
+	#home-services-desktop {display: none;}
+
+	#home-services-mobile {background-image: url(../img/bg-services.png); background-position: top; background-repeat: no-repeat; background-size: 100%; display: block; margin: -150px auto 0 auto; padding: 100px 5% 0 5%; width: 100%;}
+	#home-services-mobile > #owl-services {height: 100%;}
+	#home-services-mobile div.service-element {background-repeat: no-repeat; display: inline-block; opacity: 1; width: 100%;}
+	#home-services-mobile div.service-element a {border: 2px solid #000; color: #000; display: block; margin: 0 auto; padding: 5px 25px; width: 150px;}
+	#home-services-mobile div.service-element h3 {color: #001CFF; margin-bottom: 20px; width: 100%;}
+	#home-services-mobile div.service-element img {display: inline-block; margin-bottom: 10px; width: 75%;}
+	#home-services-mobile > button {background-color: #FFF; border: 2px solid #FFF; box-shadow: 0 0 10px rgba(0, 0, 0, 0.25); margin-top: 25px; padding: 10px; width: 75%;}
+	#home-services-mobile > button a {color: #000;}
+	#home-services-mobile .owl-nav button span {color: #000; font-size: 40px; position: absolute;}
+	#home-services-mobile .owl-nav button.owl-prev span {top: 45%; left: 0;}
+	#home-services-mobile .owl-nav button.owl-next span {top: 45%; right: 0;}
+
+	#menu-mobile {display: block; margin-top: 20px;}
+	#menu-mobile a {display: inline-block;}
+	#menu-mobile a img {width: 30px;}
+
+	#pandama {background-color: #8B8E91; margin-top: 50px; padding: 5px 0;}
+	#pandama a {display: inline-block;}
+	#pandama a img {width: 150px;}
+	#pandama p {display: block; margin-bottom: 10px;}
+
+	#pandama-black {background-color: transparent; margin-top: 50px; padding: 5px 0;}
+	#pandama-black a {display: inline-block;}
+	#pandama-black a img {width: 150px;}
+	#pandama-black p {color: #000; display: block; margin-bottom: 10px;}
+
+	#services-desktop {display: none;}
+
+	#services-mobile {}
+	#services-mobile article {border: 2px solid #D3D4D5; display: inline-block; padding: 20px 10px; width: 80%}
+	#services-mobile article div {display: inline-block; width: 90%;}
+	#services-mobile article div button {background-color: #001C9C; margin-top: 20px; width: 80%;}
+	#services-mobile article div button a {display: block; padding: 10px 0;}
+	#services-mobile article div h2 {color: #000; display: inline-block; margin-bottom: 10px; text-align: left; vertical-align: middle; width: 80%;}
+	#services-mobile article div h4 {color: #000; display: block; margin-bottom: 10px; text-align: left;}
+	#services-mobile article div img {margin: 0 2.5% 10px 0; vertical-align: middle; width: 40px; width: 15%;}
+	#services-mobile article div img.big {width: 100%;}
+	#services-mobile article div ol {margin-bottom: 1em;}
+	#services-mobile article div ol li {color: #000; list-style: decimal; margin-left: 20px; text-align: left;}
+	#services-mobile article div p {color: #000; margin-bottom: 1em; text-align: left;}
+	#services-mobile article div span {color: #000; display: block; font-weight: bolder; margin-bottom: 10px; text-align: left;}
+	#services-mobile article div ul {margin-bottom: 1em;}
+	#services-mobile article div ul li {color: #000; list-style-type: square; margin-left: 20px; text-align: left;}
+	#services-mobile article#principal {background-image: url(../img/bg-services-m.jpg); background-position: top; background-repeat: no-repeat; background-size: 100%; border: none; min-height: 500px; margin-bottom: 25px; padding-top: 200px; width: 100%;}
+	/*#services-mobile article:not(:first-child) {opacity: 0;}*/
+	#services-mobile article#principal button {background-color: transparent; border: 2px solid #FFF; opacity: 0; width: 75%;}
+	#services-mobile article#principal button a {display: block; padding: 10px 0;}
+	#services-mobile article#principal h1 {margin-bottom: 20px; opacity: 0;}
+	#services-mobile article#principal h3 {margin-bottom: 10px; opacity: 0;}
+	#services-mobile .owl-nav button span {color: #000; font-size: 40px; position: absolute;}
+	#services-mobile .owl-nav button.owl-prev span {top: 45%; left: 20px;}
+	#services-mobile .owl-nav button.owl-next span {top: 45%; right: 20px;}
+
+}
+
+/*DESKTOP*/
+@media only screen and (min-width: 1000px) {
+	* {border: none; box-sizing: border-box; color: #FFF; font-family: 'Quattrocento Sans', sans-serif; font-size: 16px; font-style: none; font-weight: 400; list-style: none; margin: 0; -moz-box-sizing: border-box; padding: 0; text-align: center; text-decoration: none; vertical-align: top; -webkit-box-sizing: border-box;}
+	body {}
+
+	footer {background-image: url(../img/bg-footer.png); background-position: top; background-repeat: no-repeat; background-size: 100%; margin-top: -300px; padding: 150px 0 75px 0; z-index: 0;}
+	footer section#clients {margin: 50px 0;}
+	footer section#clients button#platica {display: none;}
+	footer section#clients h2 {border-top: 2px solid #FFF; margin: 0 10%; padding: 20px 0; width: 80%;}
+	footer section#clients img {display: block; margin: 0 auto; vertical-align: middle; width: 50%;}
+	/*footer section#clients .owl-carousel.owl-loaded .owl-item img {position: absolute; left: 0; right: 0; bottom: 0; top:0;}*/
+	footer section#copyright {margin-top: 20px;}
+	footer section#copyright p {display: inline-block; margin-left: 10%; vertical-align: baseline; width: 60%;}
+	footer section#copyright span {display: inline-block; text-align: right; vertical-align: baseline; width: 10%;}
+	footer section#insights {border-bottom: 2px solid #FFF; border-top: 2px solid #FFF; display: inline-block; width: 80%;}
+	footer section#insights article {border-right: 2px solid #FFF; display: inline-block; min-height: 200px; padding: 25px 0;}
+	footer section#insights article#contact-information {width: 50%;}
+	footer section#insights article#contact-information div {display: inline-block; vertical-align: top; width: 45%;}
+	footer section#insights article#contact-information div h4 {display: block; padding-left: 30px; text-align: left;}
+	footer section#insights article#contact-information div p {margin-bottom: 1em; text-align: left;}
+	footer section#insights article#contact-information div span {display: block; text-align: left; vertical-align: middle;}
+	footer section#insights article#contact-information div span img {width: 30px; vertical-align: middle;}
+	footer section#insights article#contact-information div#phones-black {display: none;}
+	footer section#insights article#menu {width: 15%;}
+	footer section#insights article#menu ul {display: block;}
+	footer section#insights article#menu ul li {text-align: left; margin-bottom: 1em;}
+	footer section#insights article#menu ul li a {}
+	footer section#insights article#social-media {padding-left: 20px; width: 15%;}
+	footer section#insights article#social-media h4 {display: block; margin-bottom: 10px; text-align: left;}
+	footer section#insights article#social-media ol {text-align: left;}
+	footer section#insights article#social-media ol li {display: inline-block; margin-right: 10px;}
+	footer section#insights article#social-media ol li a {}
+	footer section#insights article#social-media ol li a img {}
+	footer section#insights article#tlsat-desktop {border: none; width: 15%;}
+	footer section#insights article#tlsat-desktop img {width: 100px;}
+	footer section#insights article#tlsat-mobile {display: none;}
+	
+	footer#black {background-image: none; margin-top: 0; padding: 75px 0;}
+	footer#black section#copyright p {color: #000;}
+	footer#black section#copyright span {color: #000;}
+	footer#black section#insights {border-bottom: 2px solid #000; border-top: 2px solid #000;}
+	footer#black section#insights article {border-right: 2px solid #000;}
+	footer#black section#insights article#contact-information div h4 {color: #000;}
+	footer#black section#insights article#contact-information div p {color: #000;}
+	footer#black section#insights article#contact-information div span {color: #000;}
+	footer#black section#insights article#menu ul li {color: #000; font-weight: bolder;}
+	footer#black section#insights article#menu ul li a {color: #000;}
+	footer#black section#insights article#social-media h4 {color: #000;}
+	footer#black section#insights article#tlsat {border: none;}
+
+	footer#grey {background-image: none; background-color: #8B8E91; margin-top: 0; padding: 100px 0 75px 0;}
+
+	h1, h2, h3, h4, h5, h6 {font-family: 'Raleway', sans-serif; font-weight: bolder;}
+	h1 {font-size: 50px;}
+	h2 {font-size: 30px;}
+	h3 {font-size: 25px;}
+	h4 {font-size: 20px;}
+	h5 {font-size: 17.5px;}
+	h6 {font-size: 15px;}
+
+	header {background-color: rgba(0, 0, 0, 0.25); margin-top: 20px; padding: 20px; position: absolute; width: 100%; z-index: 3;}
+	header figure {display: inline-block; text-align: left; vertical-align: middle; width: 15%;}
+	header figure a {display: block;}
+	header figure a img {width: 100%;}
+	header nav {display: inline-block; vertical-align: middle; width: 60%;}
+	header nav ul {display: block;}
+	header nav ul li {display: inline-block; font-weight: bolder; width: 20%;}
+	header nav ul li a {}
+	header ol {display: inline-block; text-align: right; vertical-align: middle; width: 15%;}
+	header ol li {display: inline-block; margin-left: 10px;}
+	header ol li a {}
+	header ol li a img {width: 30px;}
+	header#light {background-color: #FFF; border-bottom: 2px solid #D3D4D5; margin-top: 0; padding: 40px 0 20px 0; position: static;}
+	header#light nav ul li {color: #000; font-weight: bolder;}
+	header#light nav ul li a {color: #000;}
+	
+	#about-us {}
+	#about-us article#brochure {margin: -50px 0;}
+	#about-us article#brochure div {display: inline-block; margin: 0 5%; text-align: left; vertical-align: middle; width: 30%;}
+	#about-us article#brochure div button {background-color: transparent; border: 2px solid #001C9C; margin-top: 15px; padding: 10px; transition: .5s; width: 60%;}
+	#about-us article#brochure div button:hover {background-color: #001C9C; transition: .5s;}
+	#about-us article#brochure div button a {color: #001C9C; transition: .5s;}
+	#about-us article#brochure div button:hover a {color: #FFF; transition: .5s;}
+	#about-us article#brochure div h2 {color: #001C9C; display: block; text-align:  left; opacity: 0;}
+	#about-us article#brochure div h2.animated {opacity: 1;}
+	#about-us article#brochure div p {color: #001C9C; display: block; text-align:  left; opacity: 0;}
+	#about-us article#brochure div p.animated {opacity: 1;}
+	#about-us article#brochure figure {display: inline-block; margin: 0 5%; text-align: left; vertical-align: middle; width: 30%;}
+	#about-us article#brochure figure img {box-shadow: 0 0 10px rgba(0, 0, 0, 0.25); width: 100%;}
+	#about-us article#information {}
+	#about-us article#information div {display: inline-block; margin: 0 5%; opacity: 0; width: 30%;}
+	#about-us article#information div p {color: #000; margin-bottom: 1em; text-align: left;}
+	#about-us article#information div p img {vertical-align: bottom;}
+	#about-us article#information div p strong {color: #000; font-weight: bolder; margin-right: 20px; vertical-align: bottom;}
+	#about-us article#information div ul {margin-bottom: 1em; padding-left: 25px;}
+	#about-us article#information div ul li {color: #000; list-style-type: square; text-align: left;}
+	#about-us article#main {background-image: url(../img/bg-contact-d.jpg); background-position: bottom left; background-repeat: no-repeat; background-size: 65%; border-bottom: 2px solid #D3D4D5; height: 600px; margin-bottom: 50px; position: relative; text-align: right;}
+	#about-us article#main div {bottom: 50%; padding-right: 5%; position: absolute; text-align: right; top: 40%; width: 100%;}
+	#about-us article#main div button {background-color: #001C9C; margin-top: 25px; width: 20%; opacity: 0; transition: .5s;}
+	#about-us article#main div button:hover {background-color: transparent; border: 2px solid #001C9C; transition: .5s;}
+	#about-us article#main div button.animated {opacity: 1;}
+	#about-us article#main div button a {display: block; padding: 10px 0; transition: .5s;}
+	#about-us article#main div button:hover a {color: #001C9C; transition: .5s;}
+	#about-us article#main div h1 {color: #001CFF; text-align: right; opacity: 0;}
+	#about-us article#main div h3 {color: #001CFF; text-align: right; opacity: 0;}
+	#about-us article#main div h3 b {color: #001CFF;font-family: 'Orbitron', sans-serif; font-size: 25px; font-weight: bolder;}
+
+	#catalog {margin-top: 50px;}
+	#catalog article {display: inline-block; text-align: left; opacity: 0; width: 100%;}
+	#catalog article div {display: inline-block; margin-left: 20px; text-align: left; vertical-align: bottom;}
+	#catalog article div button {background-color: #001C9C; border: 2px solid #001C9C; margin-top: 20px; padding: 10px; transition: .5s;}
+	#catalog article div button:hover {background-color: transparent; border: 2px solid #001C9C; transition: .5s;}
+	#catalog article div button a {transition: .5s;}
+	#catalog article div button:hover a {color: #001C9C; transition: .5s;}
+	#catalog article div h2 {color: #001C9C; text-align: left;}
+	#catalog article div h5 {color: #001C9C; text-align: left;}
+	#catalog article hr {border: 100px solid #D1D3D4; margin-top: -150px; width: 75%;}
+	#catalog article img {display: inline-block; margin-left: 10%; vertical-align: bottom; width: 300px;}
+
+	#cobertura {display: inline-block; height: 125px; margin: 0 25%;}
+	#cobertura a {display: block; opacity: 0;}
+	#cobertura a.animated {opacity: 1;}
+	#cobertura a img {transition: .5s; width: 300px;}
+	#cobertura a:hover img {transition: .5s; width: 330px;}
+	
+	#contact {}
+	#contact article {margin: 50px 0;}
+	#contact article div {display: inline-block; width: 40%; opacity: 0;}
+	#contact article div h2 {color: #000; display: block; margin-bottom: 20px; text-align: left;}
+	#contact article div p {color: #000; display: block; margin-bottom: 1em; text-align: left;}
+	#contact article div p b {color: #000; font-weight: bolder;}
+	#contact article form {display: inline-block; text-align: left; width: 40%; opacity: 0;}
+	#contact article form button {background-color: #001C9C; border: 2px solid #001C9C; width: 30%; cursor: pointer; padding: 10px 0; transition: .5s;}
+	#contact article form button:hover {background-color: transparent; border: 2px solid #001C9C; color: #001C9C; transition: .5s;}
+	#contact article form button a {display: block; padding: 10px 0; transition: .5s;}
+	#contact article form button:hover a {color: #001C9C; transition: .5s;}
+	#contact article form input {border: 1px solid #000; color: #000; display: block; margin-bottom: 20px; padding: 10px 25px; text-align: left; width: 100%;}
+	#contact article form textarea{border: 1px solid #000; color: #000; display: block; margin-bottom: 30px; height: 150px; padding: 10px 25px; resize: none; text-align: left; width: 100%;}
+	#contact article form label.error { color: red; font-size: 12px; margin-top: -15px; display: block; text-align: left; font-weight: bold;}
+	#contact iframe {border-bottom: 2px solid #D3D4D5 !important; height: 600px; width: 100%;}
+
+	#home {padding-top: 250px;}
+	#home div {position: absolute; top: 0; z-index: -1;}
+	#home div video {position: relative; width: 100%;}
+	#home button {background-color: transparent; margin: 15px 12.5px 0 12.5px; padding: 10px; width: 20%;}
+	#home button a {}
+	#home button#button-contact {background-color: #FFF; border: 2px solid #FFF; opacity: 0; transition: .5s;}
+	#home button#button-contact:hover {background-color: transparent; transition: .5s;}
+	#home button#button-contact a {color: #000; transition: .5s;}
+	#home button#button-contact:hover a {color: #FFF; transition: .5s;}
+	#home button#button-services {border: 2px solid #FFF; opacity: 0; transition: .5s;}
+	#home button#button-services:hover {background-color: #FFF; transition: .5s;}
+	#home button#button-services:hover a {color: #000; transition: .5s;}
+	#home h1 {margin-bottom: 10px; opacity: 0;}
+	#home h3 {margin-bottom: 10px; opacity: 0;}
+	#home h4 {margin: 50px 0px;}
+	#home img {margin-bottom: 500px; width: 50px;}
+
+	#home-services-desktop {background-image: url(../img/bg-services.png); background-position: top; background-repeat: no-repeat; background-size: 100%; margin-top: -200px; padding: 250px 0; z-index: 1;}
+	#home-services-desktop article {margin-top: -90px;}
+	#home-services-desktop article div {background-position: center middle; background-repeat: no-repeat; display: inline-block; height: 382px; position: relative; width: 330px;}
+	#home-services-desktop article div a {border: 2px solid #FFF; bottom: 75px; box-shadow: 0 0 3px #000; display: block; margin: 0 90px; padding: 5px 25px; position: absolute; text-shadow: 0 0 3px #000; transition: .5s; width: 150px;}
+	#home-services-desktop article div a:hover {background-color: #FFF; color: #000; text-shadow: none; transition: .5s;}
+	#home-services-desktop article div h3 {bottom: 125px; position: absolute; text-shadow: 0 0 3px #000; width: 100%;}
+	#home-services-desktop article div.service-1 {background-image: url(../img/bg-voz-mobile.png);}
+	#home-services-desktop article div.service-2 {background-image: url(../img/bg-cableado-mobile.png);}
+	#home-services-desktop article div.service-3 {background-image: url(../img/bg-tv-satelital-mobile.png);}
+	#home-services-desktop article div.service-4 {background-image: url(../img/bg-cctv-mobile.png);}
+	#home-services-desktop article div.service-5 {background-image: url(../img/bg-internet-mobile.png);}
+	#home-services-desktop article div.service-6 {background-image: url(../img/bg-company.png);}
+	#home-services-desktop button {background-color: #FFF; border: 2px solid #FFF; box-shadow: 0 0 10px rgba(0, 0, 0, 0.25); margin-top: 50px; padding: 10px; transition: .5s; width: 20%;}
+	#home-services-desktop button:hover {background-color: transparent; border: 2px solid #000; transition: .5s;}
+	#home-services-desktop button a {color: #000; transition: .5s;}
+	#home-services-desktop button:hover a {color: #000; transition: .5s;}
+
+	#home-services-mobile {display: block; margin: 0 auto; opacity:0 !important; width: 50%;}
+	#home-services-mobile.loaded {display: none !important;}
+	#home-services-mobile div.service-element {background-repeat: no-repeat; display: block; margin: 0 auto; width: 75%;}
+	#home-services-mobile div.service-element a {border: 2px solid #000; color: #000; padding: 5px 25px; width: 150px;}
+	#home-services-mobile div.service-element h3 {color: #001CFF; margin-bottom: 20px; width: 100%;}
+	#home-services-mobile div.service-element img {display: inline-block; margin-bottom: 20px; width: 75%;}
+	#home-services-mobile > button {background-color: #FFF; border: 2px solid #FFF; box-shadow: 0 0 10px rgba(0, 0, 0, 0.25); margin-top: 50px; padding: 10px; opacity: 0;  width: 75%;}
+	#home-services-mobile > button a {color: #000;}
+
+	#pandama {margin-top: -50px; padding: 10px 0; text-align: right;}
+	#pandama a {display: inline-block; margin-right: 25px; vertical-align: baseline;}
+	#pandama a img {height: 10px; vertical-align: baseline}
+	#pandama p {display: inline-block; font-size: 12px; margin-right: 10px; vertical-align: baseline;}
+
+	#pandama-black {margin-top: -50px; padding: 10px 0; text-align: right;}
+	#pandama-black a {display: inline-block; margin-right: 25px; vertical-align: baseline;}
+	#pandama-black a img {height: 10px; vertical-align: baseline}
+	#pandama-black p {display: inline-block; font-size: 12px; margin-right: 10px; vertical-align: baseline;}
+
+	#services-desktop {}
+	#services-desktop article {}
+	#services-desktop article div {display: inline-block; width: 50%;}
+	#services-desktop article div button {background-color: #001C9C; border: 2px solid #001C9C; opacity: 0; transition: .5s; width: 50%;}
+	#services-desktop article div button:hover {background-color: transparent; border: 2px solid #001C9C; transition: .5s;}
+	#services-desktop article div button.animated {opacity: 1;}
+	#services-desktop article div button a {display: block; padding: 10px 0; transition: .5s;}
+	#services-desktop article div button:hover a {color: #001C9C; transition: .5s;}
+	#services-desktop article div h2 {color: #000; display: inline-block; vertical-align: middle; opacity: 0;}
+	#services-desktop article div img {vertical-align: middle; opacity: 0; width: 40px;}
+	#services-desktop article div ol {margin-bottom: 1em;}
+	#services-desktop article div ol li {color: #000; list-style: decimal; text-align: left;}
+	#services-desktop article div p {color: #000; margin-bottom: 1em; text-align: left;}
+	#services-desktop article div span {color: #000; display: block; font-weight: bolder;}
+	#services-desktop article div ul {margin-bottom: 1em; opacity: 0;}
+	#services-desktop article div ul li {color: #000; list-style-type: square; text-align: left;}
+	#services-desktop article#principal {background-image: url(../img/bg-services-d.png); background-position: bottom; background-repeat: no-repeat; background-size: 125%; height: 600px; margin-bottom: 50px; padding-top: 175px;}
+	#services-desktop article#principal button {background-color: transparent; border: 2px solid #FFF; width: 20%; opacity: 0; transition: .5s;}
+	#services-desktop article#principal button:hover {background-color: #FFF; transition: .5s;}
+	#services-desktop article#principal button a {display: block; padding: 10px 0; transition: .5s;}
+	#services-desktop article#principal button:hover a {color: #000; transition: .5s;}
+	#services-desktop article#principal h1 {margin-bottom: 40px; opacity: 0;}
+	#services-desktop article#principal h3 {margin-bottom: 10px; opacity: 0;}
+	#services-desktop article.service-cableado {position: relative; background-position: right; background-repeat: no-repeat; display: inline-block; margin-bottom: 50px; max-width: 1200px; min-height: 440px; padding-top: 50px; text-align: left; width: 80%;}
+	#services-desktop article.service-cableado div {text-align: left;}
+	#services-desktop article.service-cableado div#service-cableado-bg {position: absolute; top: 0; right: 0; height: 100%; padding: 0; opacity: 0;}
+	#services-desktop article.service-cableado div#service-cableado-bg img { opacity: 1; width: 100%;}
+	#services-desktop article.service-cableado div h2 {text-align: left; margin-right: 10px; opacity: 0;}
+	#services-desktop article.service-cableado div p {margin-top: 20px; padding-right: 50px; opacity: 0;}
+	#services-desktop article.service-cableado div span {display: block; text-align: left; margin-bottom: 10px; opacity: 0;}
+	#services-desktop article.service-cableado div ul li {margin-left: 25px;}
+	#services-desktop article.service-cctv {position: relative; background-position: left middle; background-repeat: no-repeat; display: inline-block; margin-bottom: 50px; max-width: 1200px; min-height: 440px; padding-top: 75px; text-align: right; width: 80%;}
+	#services-desktop article.service-cctv div {text-align: left;}
+	#services-desktop article.service-cctv div#service-cctv-bg {position: absolute; top: 0; left: 0; height: 100%; padding: 0; opacity: 0; width: 48%;}
+	#services-desktop article.service-cctv div#service-cctv-bg img {opacity: 1; width: 100%;}
+	#services-desktop article.service-cctv div button {margin-left: 50px; opacity: 0;}
+	#services-desktop article.service-cctv div button.animated {opacity: 1;}
+	#services-desktop article.service-cctv div h4 {color: #000; padding-left: 50px; text-align: left; opacity: 0;}
+	#services-desktop article.service-cctv div p {margin-top: 20px; padding-left: 50px; opacity: 0;}
+	#services-desktop article.service-cctv div span {margin-bottom: 10px; padding-left: 50px; text-align: left; opacity: 0;}
+	#services-desktop article.service-cctv div ul {padding-left: 50px; opacity: 0;}
+	#services-desktop article.service-cctv div ul li {margin-left: 25px;}
+	#services-desktop article.service-internet { background-position: left middle; background-repeat: no-repeat; display: inline-block; margin-bottom: 50px; max-width: 1200px; min-height: 440px; text-align: right; width: 80%;}
+	#services-desktop article.service-internet div {text-align: left;}
+	#services-desktop article.service-internet div#service-internet-bg {width: 48%}
+	#services-desktop article.service-internet div#service-internet-bg img {width: 100%}
+	#services-desktop article.service-internet div button {margin-left: 50px; opacity: 0;}
+	#services-desktop article.service-internet div button.animated {opacity: 1;}
+	#services-desktop article.service-internet div ol {padding-left: 50px; opacity: 0;}
+	#services-desktop article.service-internet div ol li {margin-left: 25px;}
+	#services-desktop article.service-internet div p {margin-top: 20px; padding-left: 50px; opacity: 0;}
+	#services-desktop article.service-internet div span {margin-bottom: 10px; padding-left: 50px; text-align: left; opacity: 0;}
+	#services-desktop article.service-internet div ul {padding-left: 50px;}
+	#services-desktop article.service-internet div ul li {margin-left: 25px;}
+	#services-desktop article.service-tv-satelital {position: relative; background-position: right; background-repeat: no-repeat; display: inline-block; margin-bottom: 50px; max-width: 1200px; min-height: 440px; padding-top: 125px; text-align: left; width: 80%;}
+	#services-desktop article.service-tv-satelital div {text-align: left; width: 45%;}
+	#services-desktop article.service-tv-satelital div#service-tv-satelital-bg {position: absolute; height: 100%; right: 0; top: 0;}
+	#services-desktop article.service-tv-satelital div#service-tv-satelital-bg img {width: 100%;}
+	#services-desktop article.service-tv-satelital div p {margin-top: 20px; opacity: 0;}
+	#services-desktop article.service-voz {position: relative; background-position: left middle; background-repeat: no-repeat; display: inline-block; margin-bottom: 50px; max-width: 1200px; min-height: 440px; text-align: right; width: 80%;}
+	#services-desktop article.service-voz div {text-align: left; padding-top: 50px;}
+	#services-desktop article.service-voz div#service-voz-bg {position: absolute; top: 0; left: 0; opacity: 0; padding: 0;}
+	#services-desktop article.service-voz div#service-voz-bg img {opacity: 1; width: 100%;}
+
+	#services-desktop article.service-voz div button {margin-left: 50px; opacity: 0;}
+	#services-desktop article.service-voz div button.animated {opacity: 1;}
+	#services-desktop article.service-voz div p {margin-top: 20px; padding-left: 50px;}
+	#services-desktop article.service-voz div span {margin-bottom: 10px; padding-left: 50px; text-align: left;}
+	#services-desktop article.service-voz div ul {padding-left: 50px;}
+	#services-desktop article.service-voz div ul li {margin-left: 25px;}
+
+	#services-mobile {display: none;}
+
+}

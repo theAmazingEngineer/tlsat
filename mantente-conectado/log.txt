@@ -1,0 +1,99 @@
+Nuevo Contacto | Friday 25th of October 2019 04:49:59 PMArray
+(
+    [nombre] => ADIEL felix
+    [ciudad] => Campeche 
+    [telefono] => 9821256272
+    [email] => adiel_filos_@hotmail.com
+    [mensaje] => Buen día , soy de la comunidad de la cristalina un ejido de cd del Carmen en esta comunidad no hay recepción de señal y m gustaría contratar internet me podría informar el costo o paquetes o si puedo usarlo para mí computadora espero me informe Gracias
+)
+Nuevo Contacto | Thursday 24th of October 2019 03:44:11 AMArray
+(
+    [nombre] => Diego
+    [ciudad] => Carmen,campeche
+    [telefono] => 9384051188
+    [email] => Hizo.diego@hotmail.com
+    [mensaje] => M interesa y precio.
+)
+Nuevo Contacto | Thursday 17th of October 2019 05:14:56 AMArray
+(
+    [nombre] => rodolfo
+    [ciudad] => Mexico
+    [telefono] => 9811091935
+    [email] => la.flacatv25@gmail.coml
+    [mensaje] => 
+)
+Nuevo Contacto | Thursday 17th of October 2019 05:14:07 AMArray
+(
+    [nombre] => yaribeth
+    [ciudad] => Mexico
+    [telefono] => 9811091935
+    [email] => 
+    [mensaje] => 
+)
+Nuevo Contacto | Thursday 10th of October 2019 08:17:45 PMArray
+(
+    [nombre] => Octavio Jimenez
+    [ciudad] => Cd del Carmen
+    [telefono] => 4772356917
+    [email] => octavio.jimenez@integralprojectit.com
+    [mensaje] => Me gustaría obtener información acerca de los planes que manejan.
+)
+Nuevo Contacto | Friday 27th of September 2019 06:52:37 PMArray
+(
+    [nombre] => cesar ruiz quijada
+    [ciudad] => ciudad del carmen
+    [telefono] => 9381641488
+    [email] => cesar271183@hotmail.com
+    [mensaje] => buenas tardes, solicito me contacten para ver la contratación de internet satelital así mismo me expliquen como funciona e instala.
+)
+Nuevo Contacto | Friday 27th of September 2019 04:10:34 PMArray
+(
+    [nombre] => CECILIO SAUL
+    [ciudad] => Campeche
+    [telefono] => 9811230603
+    [email] => s.calderon@tlsatmex.com
+    [mensaje] => http://www.tlsatmex.com/mantente-conectado/index.html
+)
+Nuevo Contacto | Friday 27th of September 2019 04:09:44 PMArray
+(
+    [nombre] => CECILIO SAUL
+    [ciudad] => 
+    [telefono] => 
+    [email] => 
+    [mensaje] => http://www.tlsatmex.com/mantente-conectado/index.html
+)
+Nuevo Contacto | Friday 27th of September 2019 04:09:29 PMArray
+(
+    [nombre] => 
+    [ciudad] => 
+    [telefono] => 
+    [email] => 
+    [mensaje] => http://www.tlsatmex.com/mantente-conectado/index.html
+)
+Nuevo Contacto | Friday 27th of September 2019 04:08:34 PMArray
+(
+    [nombre] => CECILIO SAUL
+    [ciudad] => Campeche
+    [telefono] => 9811230603
+    [email] => s.calderon@tlsatmex.com
+    [mensaje] => PRUEBA
+)
+Nuevo Contacto | Monday 26th of August 2019 11:42:55 AMArray
+(
+    [nombre] => 
+    [ciudad] => 
+    [telefono] => 
+    [email] => 
+    [mensaje] => 
+)
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,193 @@
+Nuevo Contacto | Sunday 27th of October 2019 12:56:56 AMArray
+(
+    [nombre] => Maritel 
+    [ciudad] => Campeche
+    [telefono] => 9917507243
+    [email] => bonilla333@hotmail.com
+    [mensaje] => Costo de internet, ya cuento con línea telefónica 
+)
+Nuevo Contacto | Saturday 26th of October 2019 07:56:08 PMArray
+(
+    [nombre] => Wenceslao
+    [ciudad] => Cárdenas Tabasco 
+    [telefono] => 9372270622
+    [email] => wenceslaoperez69@hotmail.com
+    [mensaje] => Para contratar internet en casa como sería el contrato y que precio se pagaría mensual y que velocidad 
+)
+Nuevo Contacto | Tuesday 22nd of October 2019 03:24:50 AMArray
+(
+    [nombre] => Alejandro
+    [ciudad] => México 
+    [telefono] => 9961083452
+    [email] => tecalejandro136@gmail.com
+    [mensaje] => Me gustaría bajar mi internet 
+)
+Nuevo Contacto | Sunday 20th of October 2019 05:38:22 PMArray
+(
+    [nombre] => Julio Pech
+    [ciudad] => Hopelchen
+    [telefono] => 9969638090
+    [email] => juliopech61@gmail.com
+    [mensaje] => buenas tardes estoy interesado en adquirir internet para mí casa.
+)
+Nuevo Contacto | Saturday 19th of October 2019 11:41:31 PMArray
+(
+    [nombre] => maniako
+    [ciudad] => Campeche
+    [telefono] => 9811309238
+    [email] => 
+    [mensaje] => 
+)
+Nuevo Contacto | Friday 18th of October 2019 04:44:07 PMArray
+(
+    [nombre] => María de Lourdes Palacios Alejandro
+    [ciudad] => Sabancy campeche
+    [telefono] => 9821061210
+    [email] => palaciosbello9311@gmail.com
+    [mensaje] => Quiero contratar el interned
+)
+Nuevo Contacto | Friday 18th of October 2019 12:31:20 PMArray
+(
+    [nombre] => javier
+    [ciudad] => campeche
+    [telefono] => 9811069331
+    [email] => hsanchez_1969@hotmail.com
+    [mensaje] => buenos dias deseo saber el costo del servicio de internet en l ciudad de campeche.saludos
+)
+Nuevo Contacto | Friday 18th of October 2019 12:40:49 AMArray
+(
+    [nombre] => Manuel
+    [ciudad] => Escarsega
+    [telefono] => 9821035332
+    [email] => adrianmanuelz15@gmail
+    [mensaje] => Como consejir la instalacion
+
+)
+Nuevo Contacto | Friday 18th of October 2019 12:40:01 AMArray
+(
+    [nombre] => Manuel
+    [ciudad] => 
+    [telefono] => 9821035332
+    [email] => adrianmanuelz15@gmail
+    [mensaje] => Como octengo la instalasion
+
+)
+Nuevo Contacto | Friday 18th of October 2019 12:39:58 AMArray
+(
+    [nombre] => Manuel
+    [ciudad] => 
+    [telefono] => 9821035332
+    [email] => adrianmanuelz15@gmail
+    [mensaje] => Como octengo la instalasion
+
+)
+Nuevo Contacto | Friday 18th of October 2019 12:39:43 AMArray
+(
+    [nombre] => Manuel
+    [ciudad] => 
+    [telefono] => 9821035332
+    [email] => adrianmanuelz15@gmail
+    [mensaje] => Como octengo la instalasion
+
+)
+Nuevo Contacto | Friday 18th of October 2019 12:38:42 AMArray
+(
+    [nombre] => 
+    [ciudad] => 
+    [telefono] => 
+    [email] => 
+    [mensaje] => 
+)
+Nuevo Contacto | Friday 18th of October 2019 12:38:25 AMArray
+(
+    [nombre] => Manuel
+    [ciudad] => Escarsega
+    [telefono] => 9821035332
+    [email] => adrianmanuelz15@gmail
+    [mensaje] => 
+)
+Nuevo Contacto | Wednesday 16th of October 2019 03:02:12 AMArray
+(
+    [nombre] => 
+    [ciudad] => 
+    [telefono] => 
+    [email] => 
+    [mensaje] => 
+)
+Nuevo Contacto | Sunday 6th of October 2019 03:46:15 AMArray
+(
+    [nombre] => Ernesto Hernández Garcia
+    [ciudad] => Sabancuy
+    [telefono] => 9384010919 
+    [email] => ehgarcia90@yahoo.com.mx
+    [mensaje] => Cuanto me cuesta un módem para 50 MB
+)
+Nuevo Contacto | Saturday 5th of October 2019 08:06:39 PMArray
+(
+    [nombre] => Mario de jesus 
+    [ciudad] => Campeche campeche
+    [telefono] => 5219811687707
+    [email] => Reptiliano6969@gmail.com
+    [mensaje] => Informes costo d instalacion costo d paquetes 
+)
+Nuevo Contacto | Wednesday 2nd of October 2019 06:02:43 PMArray
+(
+    [nombre] => Rafael López 
+    [ciudad] => Mamantel cd carmen 
+    [telefono] => 2293970907
+    [email] => Raloc113@gmail.com
+    [mensaje] => Me gustaría tener el servicio y si hay para esta zona
+)
+Nuevo Contacto | Friday 27th of September 2019 08:57:23 PMArray
+(
+    [nombre] => CECILIO SAUL
+    [ciudad] => Campeche
+    [telefono] => 
+    [email] => s.calderon@tlsatmex.com
+    [mensaje] => PRUEBA PAGINA EMPRESARIAL
+)
+Nuevo Contacto | Friday 27th of September 2019 03:47:24 PMArray
+(
+    [nombre] => Ruben cordoba 
+    [ciudad] => Ciudad de Carmen
+    [telefono] => 019381640466
+    [email] => coper1375@Gmail.com
+    [mensaje] => Quiero un paquete para tres tv + internet 
+)
+Nuevo Contacto | Thursday 26th of September 2019 10:03:49 PMArray
+(
+    [nombre] => Alexander Leal
+    [ciudad] => Ciudad del Carmen
+    [telefono] => 5578102846
+    [email] => jalexander.lealc@gmail.com
+    [mensaje] => Quisiera contratar un modem de internet inalámbrico. Por lo que pido me llamen para saber detalles y de ser posible hacer la contratación lo antes posible.
+)
+Nuevo Contacto | Monday 26th of August 2019 11:42:55 AMArray
+(
+    [nombre] => 
+    [ciudad] => 
+    [telefono] => 
+    [email] => 
+    [mensaje] => 
+)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
